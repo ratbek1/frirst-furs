@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import {DarkContext} from "../context";
 
 const Hero = () => {
+    // const {dark} = useContext(DarkContext)
     return (
         <div id="hero">
             <div className="container">
