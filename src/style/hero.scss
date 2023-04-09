@@ -1,0 +1,57 @@
+#hero{
+  padding: 20px 0;
+  background: #121212;
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     button{
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 30px;
+  color: #FFFFFF;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+}
+    &--second{
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        span{
+          padding-left: 80px;
+        }
+       }
+    }
+    &--block3{
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        span{
+          padding-left: 20px;
+        }
+      }
+      div{
+        margin: 8px 0;
+        width: 500px;
+        height: 5px;
+        background: white;
+        div{
+          width: 350px;
+          height: 5px;
+          background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+        }
+      }
+      h6{
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        span{
+          padding-left: 75%;
+        }
+      }
+    }
+  }
+}

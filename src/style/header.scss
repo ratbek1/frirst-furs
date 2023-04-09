@@ -1,0 +1,59 @@
+#header{
+  padding: 40px 0;
+  background: url("../img/bgc.png") no-repeat center/cover;
+  min-height: 100vh;
+ .header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   &--nav{
+     a{
+       margin-left: 25px;
+       font-weight: 400;
+       font-size: 16px;
+       color: #FFFFFF;
+     }
+   }
+   &--btn{
+     font-weight: 400;
+     font-size: 16px;
+     text-align: center;
+     color: #FFFFFF;
+     padding: 10px 30px;
+     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+     border-radius: 50px;
+   }
+  }
+  .title{
+    h1{
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 140%;
+      color: #FFFFFF;
+      padding-top: 190px;
+    }
+    &--first{
+      display: flex;
+      align-items: center;
+      gap: 3%;
+      padding-top: 50px;
+      &__block{
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+        background:  #121212;
+        width: 100px;
+        height: 100px;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      &__block span{
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+      }
+    }
+  }
+  }
